@@ -1,0 +1,80 @@
+*{
+	padding: 0px;
+	margin: 2px;
+}
+body{
+	background: url("images/bg.jpg") no-repeat center/cover;
+}
+h1,h2{
+	font-family: serif;
+	
+}
+.login-form{
+	width: 400px;
+	height: 500px;
+	margin: 0px auto;
+	padding: 40px;
+	border: 2px solid floralwhite;
+	border-radius: 10%;
+}
+
+.avater{
+	width: 100%;
+	text-align: center;
+}
+.avater	img{
+	width: auto;
+	height: 180px;
+	border-radius: 50%;
+}
+.avater h2{
+	line-height: 46px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight:800;
+	margin: 10px 0px;
+	color: #fff;
+}
+.form-group{
+	width:100%;
+	margin: 0px 0px 20px;
+}	
+.form-group label{
+	display: block;
+	font-size:16px;
+	line-height:26px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight:700;
+	margin: 0px 0px 5px;
+	color: #fff;
+}
+.form-group .form-control{
+	width: 90%;
+	padding: 14px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	background: #fff;
+	border-radius: 10px;
+}
+.form-group .btn-inf{
+	padding: 12px 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight:700;
+	background: linear-gradient(45deg, black 25%, #05abe0 75%); 
+	color: white;
+	border:1px solid black;
+	border-radius: 10px;
+	transition: 1s;
+
+
+}
+.form-group .btn-inf:hover{
+	background: linear-gradient(45deg, grey 25%, white 75%);;
+	color: black;
+	border:1px solid royalblue;
+	cursor: pointer;
+}
+
